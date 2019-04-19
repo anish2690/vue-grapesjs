@@ -15,6 +15,11 @@ export default new Router({
       path: '/dashboard',
       name: 'dashboard',
       component: () => import(/* webpackChunkName: "dashboard" */ './views/dashboard/Dashboard.vue')
+    },
+    {
+      path: '/email',
+      name: 'email',
+      component: () => import(/* webpackChunkName: "dashboard" */ './views/dashboard/Email.vue')
     }
   ]
 })
