@@ -1,12 +1,19 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> | -->
+      <router-link to="/dashboard">Dash</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+
+<style src='grapesjs/dist/css/grapes.min.css'>
+/* global styles */
+</style>
+ <style src='grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.css'>
+</style>
 
 <style>
 #app {
