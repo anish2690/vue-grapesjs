@@ -9,11 +9,14 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "ckeditor": "^4.11.4",
     "core-js": "^2.6.5",
     "grapesjs": "^0.14.25",
     "grapesjs-blocks-basic": "^0.1.8",
+    "grapesjs-plugin-ckeditor": "^0.0.9",
     "grapesjs-preset-newsletter": "^0.2.20",
     "grapesjs-preset-webpage": "^0.1.10",
+    "toastr": "^2.1.4",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"

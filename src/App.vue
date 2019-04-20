@@ -2,12 +2,20 @@
 	<div id="app">
 		<div id="nav">
 			<!-- <router-link to="/">Home</router-link> | -->
-			<router-view></router-view>
+			<!-- <router-view></router-view> -->
 		</div>
-		<router-view/>
+		<!-- <router-view/> -->
+		<Native></Native>
 	</div>
 </template>
-
+<script>
+import Native from "@/views/new/TestWithNative";
+export default {
+	components: {
+		Native
+	}
+};
+</script>
 
 <style src='grapesjs/dist/css/grapes.min.css'>
 /* global styles */
